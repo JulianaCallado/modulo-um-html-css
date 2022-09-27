@@ -1,0 +1,21 @@
+.primeirasListas{
+    color:rgba(255, 255, 0, 0.89)
+}
+.segundasListas{
+    color: brown;
+}
+#titulo{
+    color: orange;
+}
+.paragrafo{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 02;
+    border: 15px solid red;
+}
+    /*border pode ficar tb na mesma linha
+    border-width: 5px;
+    border: solid;
+    background-color: red;
+
+
