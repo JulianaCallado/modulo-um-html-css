@@ -1,24 +1,24 @@
-*{
-    margin: 0;
+* {
+    margin: 0; 
     padding: 0;
     outline: 0;
 }
 
-body{
-    font-family:'Roboto';
+body {
+    font-family: 'Roboto';
 }
 
 .container {
-margin-right: auto;
-margin-left: auto;
-max-width: 960px;
-padding-right: 10px;
-padding-left: 10px;
-width: 100%;
-background: #f2f1f1;
-margin-top: 10px;
-border-radius: 5px;
-padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    background: #f2f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 16px;
 }
 
 .avatar{
@@ -36,16 +36,32 @@ padding: 16px;
     flex-direction: column;
     justify-content: center;
     margin-left: 32px;
-
+    font-family: sans-serif;
 }
+
 .nome{
-
+    color: blue;
+    font-size: larger;
+    font-family: sans-serif;
+    display: inline;
+    margin: 0 0 10px 0;
 }
 
-.container-descricao{
-
+.container-descrição{
+    font-family: sans-serif;
+    display: inline;
+    width: 65%;
+    float: right;
+    font-size: small;
+    line-height: 15px;
+    margin-top: 38px;
 }
 
 .descricao{
-    
+    display: inline;
+    width: 65%;
+    font-size: small;
+    line-height: 15px;
+    margin-top: 38px;
+    font-family: sans-serif;
 }
